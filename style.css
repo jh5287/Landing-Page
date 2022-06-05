@@ -15,7 +15,7 @@ img {
 }
 
 
-
+/*CSS for header*/
 .header {
     background-color: #1F2937;
     display: flex;
@@ -37,7 +37,7 @@ img {
 
 
 
-
+/* CSS for the top section */
 .top {
     background-color: #1F2937;
     height: 400px;
@@ -73,4 +73,45 @@ img {
     padding: 6px 12px;
     color:#F9FAF8;
     width: 100px
+}
+
+/*CSS For random information section*/
+
+.randominfo {
+    height: 400px;
+    padding: 80px 200px 0 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+.randomtitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.card {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    height: 120px;
+    width: 130px;
+}
+
+.subtext {
+    color:#1F2937;
+    text-align: center;
 }
