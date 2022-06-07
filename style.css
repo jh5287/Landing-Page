@@ -104,7 +104,7 @@ img {
     width: 150px;
 }
 
-.card {
+.card { 
     border: 2px solid #3882F6;
     border-radius: 8px;
     height: 120px;
@@ -187,3 +187,13 @@ img {
     width: 100px
 }
 
+/*CSS for footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 30px 200px;
+}
